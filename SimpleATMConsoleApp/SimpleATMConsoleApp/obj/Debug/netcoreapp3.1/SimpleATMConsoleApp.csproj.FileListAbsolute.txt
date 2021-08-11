@@ -1,0 +1,13 @@
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\bin\Debug\netcoreapp3.1\SimpleATMConsoleApp.exe
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\bin\Debug\netcoreapp3.1\SimpleATMConsoleApp.deps.json
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\bin\Debug\netcoreapp3.1\SimpleATMConsoleApp.runtimeconfig.json
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\bin\Debug\netcoreapp3.1\SimpleATMConsoleApp.runtimeconfig.dev.json
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\bin\Debug\netcoreapp3.1\SimpleATMConsoleApp.dll
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\bin\Debug\netcoreapp3.1\SimpleATMConsoleApp.pdb
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\obj\Debug\netcoreapp3.1\SimpleATMConsoleApp.csproj.AssemblyReference.cache
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\obj\Debug\netcoreapp3.1\SimpleATMConsoleApp.AssemblyInfoInputs.cache
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\obj\Debug\netcoreapp3.1\SimpleATMConsoleApp.AssemblyInfo.cs
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\obj\Debug\netcoreapp3.1\SimpleATMConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\obj\Debug\netcoreapp3.1\SimpleATMConsoleApp.dll
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\obj\Debug\netcoreapp3.1\SimpleATMConsoleApp.pdb
+C:\Users\GabrielC\Documents\GitHub\SimpleATMConsoleApp\SimpleATMConsoleApp\obj\Debug\netcoreapp3.1\SimpleATMConsoleApp.genruntimeconfig.cache
