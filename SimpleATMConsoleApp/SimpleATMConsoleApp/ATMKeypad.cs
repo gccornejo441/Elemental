@@ -17,10 +17,8 @@ namespace SimpleATMConsoleApp
         }
        
 
-        public static bool isCardNumberValid(int numb)
+        public static bool isCardNumberValid(string cardNum)
         {
-            string cardNum;
-            cardNum = Convert.ToString(numb);
             
             bool validated = false;
             while (!validated)
@@ -51,10 +49,8 @@ namespace SimpleATMConsoleApp
             }
             return validated;
         }
-        public static bool isSecurityCodeValid(int numb)
+        public static bool isSecurityCodeValid(string cardNum)
         {
-            string cardNum;
-            cardNum = Convert.ToString(numb);
 
             bool validated = false;
             while (!validated)
