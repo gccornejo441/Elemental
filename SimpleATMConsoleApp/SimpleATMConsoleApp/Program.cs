@@ -8,7 +8,6 @@ namespace SimpleATMConsoleApp
         {
             Console.WriteLine("Welcome To Faux-Fox Bank");
             Console.WriteLine(" ");
-            ATMKeypad.CardNumberValidation(0);
 
             // Requesting User Information
             Program.RequestingInformation();
@@ -24,15 +23,30 @@ namespace SimpleATMConsoleApp
             Console.Write("Please enter your name as written on your credit card: ");
             string name = Console.ReadLine();
             Console.WriteLine(" ");
+
             
             Console.Write("Please enter your card number: ");
-            string cardNumber = Console.ReadLine();
-            Console.WriteLine(" ");
+            int cardNumber = Convert.ToInt32(Console.ReadLine());
+            //This validates the card number.
+             bool isCardValid = ATMKeypad.isCardNumberValid(cardNumber);
+            if (isCardValid)
+            {
+                Console.WriteLine(" ");
 
-            Console.WriteLine("Please enter the three digit security ");
-            Console.Write("code located on the back of your card: ");
-            string securityNumber = Console.ReadLine();
-            Console.WriteLine(" ");
+                Console.WriteLine("Please enter the three digit security ");
+                Console.Write("code located on the back of your card: ");
+
+                //This validates the card security number.
+                int securityNumber = Convert.ToInt32(Console.ReadLine());
+                ATMKeypad.isSecurityCodeValid(securityNumber);
+                Console.WriteLine(" ");
+
+            }
+            else
+            {
+                Console.WriteLine("Something went wrong.");
+            }
+
         }
     }
 }
