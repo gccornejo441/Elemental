@@ -32,6 +32,8 @@ namespace SimpleATMConsoleApp
             var addAccount = new Account(nameOnCard, cardNumber, securityNumber, expirationDate, pin);
 
             Console.WriteLine(addAccount.newAccount);
+            
+            Account.AccountLogin(addAccount);
         }
     }
 }
