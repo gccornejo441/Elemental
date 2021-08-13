@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Collections.Generic;
 
 namespace SimpleATMConsoleApp
 {
@@ -66,6 +67,27 @@ namespace SimpleATMConsoleApp
         {
             Console.Write("Please enter your experation date: ");
             string expDate = Console.ReadLine();
+                    Console.WriteLine("afdafaf: {0}",expDate.Length);
+
+            if(expDate.Length != 4)
+            {
+                while (expDate.Length != 4 || expDate.Length <= 0)
+                {
+                    Console.Write("Invalid entry, please enter two digits for the month and two digit for the year: ");
+                    expDate = Regex.Replace(Console.ReadLine(), @"[^0-9\s]", string.Empty);
+                    if (expDate.Length == 4) break;
+                }
+            }
+
+            List<char> expDateList = new List<char>();
+
+            foreach (char abc in expDate)
+            {
+                expDateList.Add(abc);
+            }
+
+            string formattedDate = expDateList[0] + "" +  expDateList[1] + "/" + expDateList[2] + expDateList[3];
+            Console.WriteLine(formattedDate);
 
             return expDate;
         }
@@ -82,20 +104,19 @@ namespace SimpleATMConsoleApp
         public static void RequestingInformation()
         {
             
+            string expirationDate = requestingExpirationDate();
             string nameOnCard = requestingName();
 
             string cardNumber = requestingCardNumber();
 
             string securityNumber = requestingSecurityNumber();
 
-            string expirationDate = requestingExpirationDate();
 
             string pin = requestingPin();
 
             var addAccount = new Account(nameOnCard, cardNumber, securityNumber, expirationDate, pin);
 
-            addAccount.newAccount;
-
+            Console.WriteLine(addAccount.newAccount);
         }
     }
 }

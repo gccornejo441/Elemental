@@ -27,7 +27,7 @@ namespace SimpleATMConsoleApp
         {
             get
             {
-               return NameOnCard + " " + CreditCardNumber + " " + SecurityNumber + " " + ExperationDate + " " + Pin;
+                return NameOnCard + " " + CreditCardNumber + " " + SecurityNumber + " " + ExperationDate + " " + Pin;
             }
         }
 
