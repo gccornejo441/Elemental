@@ -11,7 +11,9 @@ namespace SimpleATMConsoleApp
         public string SecurityNumber { get; set; }
         public string ExperationDate { get; set; }
         public string Pin { get; set; }
+        public static decimal CheckingAccount { get; set; }
 
+        private static List<decimal> currentBalance = new List<decimal>();
 
         // Default Constructor.
         public Account(string nameOnCard, string creditCardNumber, string securityNumber, string experationDate, string pin)
@@ -30,58 +32,67 @@ namespace SimpleATMConsoleApp
                 return NameOnCard + " " + CreditCardNumber + " " + SecurityNumber + " " + ExperationDate + " " + Pin;
             }
         }
-        public static bool AccountLoginName(Account account)
+
+        public static string Balance
+        {
+            get
+            {
+                decimal balance = 0;
+                currentBalance.Add(CheckingAccount);
+                foreach(var item in currentBalance)
+                {
+                    balance += item;
+                }
+                return $"You have ${balance} in your checking account.";
+            }
+        }
+
+
+        static void LoopBackError(string propterty, string input)
+        {
+            if (input != propterty)
+            {
+                int tries = 1;
+                while (input != propterty)
+                {
+                    Console.WriteLine(tries);
+
+                    if (tries == 5)
+                    {
+                        Console.WriteLine("You have entered an invalid entry too many times.  Try again later.");
+                        Environment.Exit(0);
+                    }
+
+                    Console.WriteLine("Please try again: ");
+                    input = Console.ReadLine();
+                    tries++;
+                }
+            }
+
+        }
+
+        public static bool AccountLogin(Account account)
         {
             Console.WriteLine("We would first like to authenticate the name on the account and card number.");
             Console.WriteLine(" ");
 
             Console.WriteLine("Please enter the name on the account: ");
             string accountName = Console.ReadLine();
-            if (accountName != account.NameOnCard)
-            {
-                int tries = 0;
-                while (accountName != account.NameOnCard)
-                {
-                    Console.WriteLine(tries);
 
-                    Console.WriteLine("Please try again: ");
-                    accountName = Console.ReadLine();
+            Account.LoopBackError(account.NameOnCard, accountName);
 
-                    if (tries == 5)
-                    {
-                        Console.WriteLine("You have entered an invalid entry too many times.  Try again later.");
-                        Environment.Exit(0);
-                    }
-                    tries++;
-                }
-            }
-            return true;
-        }
-
-        public static bool AccountLoginCard(Account account)
-        {
             Console.WriteLine("Please enter your card number: ");
             string cardNumber = Console.ReadLine();
-            if (cardNumber != account.CreditCardNumber)
-            {
-                int tries = 0;
-                while (cardNumber != account.CreditCardNumber)
-                {
-                    Console.WriteLine(tries);
 
-                    Console.WriteLine("Please try again: ");
-                    cardNumber = Console.ReadLine();
+            Account.LoopBackError(account.CreditCardNumber, cardNumber);
 
-                    if (tries == 5)
-                    {
-                        Console.WriteLine("You have entered an invalid entry too many times.  Try again later.");
-                        Environment.Exit(0);
-                    }
-                    tries++;
-                }
-            }
+            Console.WriteLine("Please enter your pin: ");
+
+            string pin = Console.ReadLine();
+
+            Account.LoopBackError(account.Pin, pin);
+
             return true;
         }
     }
-
 }

@@ -12,8 +12,18 @@ namespace SimpleATMConsoleApp
             Console.WriteLine("Welcome To Faux-Fox Bank");
             Console.WriteLine(" ");
 
+
+
             // Requesting User Information
             Program.RequestingInformation();
+
+            Console.WriteLine("How much would you like to deposit?");
+            decimal deposit = Convert.ToDecimal(Console.ReadLine());
+
+            Account.CheckingAccount = deposit;
+
+            Console.WriteLine(Account.Balance);
+
 
         }
 
@@ -32,8 +42,9 @@ namespace SimpleATMConsoleApp
             var addAccount = new Account(nameOnCard, cardNumber, securityNumber, expirationDate, pin);
 
             Console.WriteLine(addAccount.newAccount);
-            
+
             Account.AccountLogin(addAccount);
+
         }
     }
 }
