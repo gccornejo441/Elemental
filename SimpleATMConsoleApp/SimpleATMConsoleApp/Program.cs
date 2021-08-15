@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
-using System.Collections.Generic;
 
 namespace SimpleATMConsoleApp
 {
@@ -11,8 +8,6 @@ namespace SimpleATMConsoleApp
         {
             Console.WriteLine("Welcome To Faux-Fox Bank");
             Console.WriteLine(" ");
-
-
 
             // Requesting User Information
             Program.RequestingInformation();

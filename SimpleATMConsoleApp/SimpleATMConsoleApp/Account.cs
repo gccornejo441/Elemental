@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace SimpleATMConsoleApp
 {
@@ -29,7 +28,7 @@ namespace SimpleATMConsoleApp
         {
             get
             {
-                return NameOnCard + " " + CreditCardNumber + " " + SecurityNumber + " " + ExperationDate + " " + Pin;
+                return NameOnCard + " " + CreditCardNumber  + " " + SecurityNumber + " " + ExperationDate + " " + Pin;
             }
         }
 
