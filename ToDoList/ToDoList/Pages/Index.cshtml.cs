@@ -17,14 +17,9 @@ namespace ToDoList.Pages
             _logger = logger;
         }
 
-        public RedirectToPageResult OnGet()
+        public void OnGet()
         {
-            return RedirectToPage("ToDo/ListCategory",
-                new
-                {
-                    category = "open",
-                    username = "gabe"
-                });
+
 
         }
     }
