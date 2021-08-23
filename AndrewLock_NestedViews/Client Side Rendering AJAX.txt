@@ -1,0 +1,5 @@
+To expose AJAX request to Razor Pages:
+https://www.learnrazorpages.com/razor-pages/ajax/partial-update
+
+
+AJAX (Asynchronous JavaScript And XML): Used to send requests to app without needing to reload.

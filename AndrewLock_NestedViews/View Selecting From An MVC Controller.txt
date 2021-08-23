@@ -1,0 +1,4 @@
+What are Tag Helpers?
+	- Used to customize the HTML in templates.
+	- Useful for avoiding boilerplate code.  (Verbose use of code)
+	-

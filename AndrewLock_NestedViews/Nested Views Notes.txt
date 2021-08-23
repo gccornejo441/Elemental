@@ -1,0 +1,26 @@
+ToDoList App
+classes: ToDoListViewModel & TaskService
+
+Uses:
+- Model in MVC
+  ~ Id, Title, (List of) Tasks, (Check validation) IsComplete
+  ~ Default constructor
+
+- Defines what needs to be stored in db.
+
+Index page sets up routing "<a></a>"
+  ~ asp-page = "ToDo/RecentToDos"
+
+RecentToDo(RazorPage)
+  ~ Handles request to be displayed on HTML page using Dynamic HTML and a Partial View "_ToDo"
+  
+  (Class)               (Razor Page)  
+ToDoListViewModel ---> ViewToDo: Uses page handler to pass URL parameters.
+
+
+IActionResult: An IActionResult's result is returned by the page handler, when execute, generates a response.
+	Purpose: It's used to seperate response to send from generating a response.  Additionally, this is to test for a correct response given the input.
+
+
+-Any code in the __ViewStart.cshtml file runs before the view executes.  
+  ~  This file is typically used to set the Layout for all the pages in you application.

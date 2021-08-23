@@ -9,9 +9,8 @@ namespace AndrewLock_NestedViews.Pages
     {
         public int Id { get; }
         public string Title { get; }
+        public bool IsComplete => Tasks.Count == 3;
         public List<string> Tasks { get; }
-        public bool IsComplete => Tasks.Count == 0;
-
         public ToDoItemViewModel(int id, string title, params string[] tasks)
         {
             Id = id;
