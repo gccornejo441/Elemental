@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<form method="post">
+    <div class="form-check">
+        <label asp-for="Input.FirstName"></label>
+        <input class="form-control" asp-for="Input.FirstName" />
+    </div>
+    <div class="form-check">
+        <label asp-for="Input.LastName"></label>
+        <input class="form-control" asp-for="Input.LastName" />
+    </div>
+    <p>Submit the form to see the validation errors summary:</p>
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+
+</form>
