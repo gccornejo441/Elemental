@@ -27,7 +27,8 @@ namespace AndrewLock_Calculator.Pages
             [Display(Name = "Your name")]
             public string FirstName { get; set; } = "Enter your first name";
             public string LastName { get; set; } = "Enter your last name";
-
+            [EmailAddress]
+            public string Email { get; set; } = "example@gmail.com";
 
         }
     }
