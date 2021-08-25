@@ -13,21 +13,21 @@ namespace AndrewLock_Calculator.Pages.Shared.MoreList
     {
         [BindProperty]
         public EmployeeInput Input { get; set; }
-        // Only works with SelectListItem Class
-        public IEnumerable<SelectListItem> Items { get; set; } = new List<SelectListItem>
-        {
-            new SelectListItem{ Value = "gabriel", Text = "Gabriel" },
-        };
-
         public void OnGet()
         {
 
         }
 
+        public IEnumerable<SelectListItem> Items { get; set; } = new List<SelectListItem>
+        {
+            new SelectListItem{Text = "JavaScript Developer", Value = "JavaScript Developer" }
+        };
+
         public class EmployeeInput
         {
-            public string SelectedValue1 { get; set; }
-            public IEnumerable<string> MultiValues { get; set; }
-        }
+            [Display(Name = "Job Title")]
+            public string SelectItems1 { get; set; }
+        };
+
     }
 }

@@ -12,28 +12,13 @@
     <li>
         <a asp-page="SelectLists">Go to select-a-list</a>
     </li>
+    <li>
+        <a asp-page="/MoreList/EmployeeView">Go to select-a-developer</a>
+    </li>
+    <li>
+        <a asp-page="/MoreList/SelectList">Go to select-a-language</a>
+    </li>
 </ul>
-
-<form asp-page="/Checkout" method="post">
-    <div class="form-check">
-        <label asp-for="Input.FirstName"></label>
-        <input class="form-control" asp-for="Input.FirstName" />
-    </div>
-    <div class="form-check">
-        <label asp-for="Input.LastName"></label>
-        <input class="form-control" asp-for="Input.LastName" />
-    </div>
-    <div class="form-control">
-        <label asp-for="Input.Email"></label>
-        <input type="email" id="Input_Email" name="Input.Email" asp-for="Input.Email" data-val="true" />
-    </div>
-    <p>Submit the form to see the validation errors summary:</p>
-
-    <div asp-validation-summary="All" class="text-danger"></div>
-
-    <button type="submit" class="btn btn-primary">Submit</button>
-
-</form>
 
 @section Scripts{
     @Html.Partial("_ValidationScriptsPartial")
