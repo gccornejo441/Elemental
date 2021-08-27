@@ -1,0 +1,16 @@
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\bin\Debug\net5.0\ScopeTestingDotNET5.exe
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\bin\Debug\net5.0\ScopeTestingDotNET5.deps.json
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\bin\Debug\net5.0\ScopeTestingDotNET5.runtimeconfig.json
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\bin\Debug\net5.0\ScopeTestingDotNET5.runtimeconfig.dev.json
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\bin\Debug\net5.0\ScopeTestingDotNET5.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\bin\Debug\net5.0\ref\ScopeTestingDotNET5.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\bin\Debug\net5.0\ScopeTestingDotNET5.pdb
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.csproj.AssemblyReference.cache
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.AssemblyInfoInputs.cache
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.AssemblyInfo.cs
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.csproj.CoreCompileInputs.cache
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ref\ScopeTestingDotNET5.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.pdb
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTestingDotNET5\ScopeTestingDotNET5\obj\Debug\net5.0\ScopeTestingDotNET5.genruntimeconfig.cache
