@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ScopeTestingDotNET5
 {
@@ -7,23 +8,31 @@ namespace ScopeTestingDotNET5
     {
         static void Main(string[] args)
         {
-            IDictionary<string, Language> _allProducts = new Dictionary<string, Language>
+            IDictionary<string, Product> _allProducts = new Dictionary<string, Product>
             {
-                {"csharp", new Language("csharp", "C#")},
+                {"cheese-danish", new Product("Cheese Danish", 1) }
             };
 
 
-        Language GetLanguage(string name)
-        {
-            if (_allProducts.TryGetValue(name, out var product))
+             Product GetProduct(string name)
             {
-                    Console.WriteLine("Get Lang: {0}", product.Item);
+                if (_allProducts.TryGetValue(name, out var value))
+                {
+                    return value;
+                }
+                return null;
             }
-            return null;
-        }
 
-            Console.WriteLine("Get Language: {0}", GetLanguage("csharp"));
 
+            List<Product> Search(string term, StringComparison comparisonType)
+            {
+                return _allProducts
+                    .Where(x => x.Value.Name.Contains(term, comparisonType))
+                    .Select(x => x.Value)
+                    .ToList();
+            }
+
+            Console.WriteLine(Search("cheese-danish", StringComparison.Ordinal));
         }
     }
 }
