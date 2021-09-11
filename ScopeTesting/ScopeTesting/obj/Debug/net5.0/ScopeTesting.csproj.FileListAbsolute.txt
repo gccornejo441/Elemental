@@ -1,0 +1,16 @@
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\bin\Debug\net5.0\ScopeTesting.exe
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\bin\Debug\net5.0\ScopeTesting.deps.json
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\bin\Debug\net5.0\ScopeTesting.runtimeconfig.json
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\bin\Debug\net5.0\ScopeTesting.runtimeconfig.dev.json
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\bin\Debug\net5.0\ScopeTesting.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\bin\Debug\net5.0\ref\ScopeTesting.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\bin\Debug\net5.0\ScopeTesting.pdb
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.csproj.AssemblyReference.cache
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.AssemblyInfoInputs.cache
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.AssemblyInfo.cs
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.csproj.CoreCompileInputs.cache
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ref\ScopeTesting.dll
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.pdb
+C:\Users\GabrielC\Documents\GitHub\Elemental\ScopeTesting\ScopeTesting\obj\Debug\net5.0\ScopeTesting.genruntimeconfig.cache
