@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UserAuthApp
+namespace DIWebApplication
 {
     public class Program
     {
@@ -18,19 +18,9 @@ namespace UserAuthApp
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
-            .ConfigureAppConfiguration(AddAppConfiguration)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
                 });
-
-        public static void AddAppConfiguration(
-            HostBuilderContext hostingContext,
-            IConfigurationBuilder config)
-        {
-            config.Sources.Clear();
-            config.AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-            config.AddJsonFile("extrasettings.json", optional: false, reloadOnChange: true);
-        }
     }
 }
