@@ -1,23 +1,26 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace ScopeTesting
 {
     class Program
     {
-       interface IComparable<T>
+
+        public class MyGenCollection : IEnumerable<int>
         {
-            int CompareTo(T other);
+            int[] data = { 1, 2, 3 };
         }
 
-        static T Max<T> (T a, T b) where T : IComparable<T>
+        public IEnumerator<int> GetEnumerator()
         {
-            return a.CompareTo(b) > 0 ? a : b;
+            foreach (int i in data)
+                yield return i;
         }
 
         static void Main(string[] args)
         {
-            var pig = new Pig();
-            pig.animalSound();
+            
         }
     }
 }
