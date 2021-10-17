@@ -151,3 +151,8 @@ C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\n
 C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Movies\Details.cshtml.g.cs
 C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Movies\Edit.cshtml.g.cs
 C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Foods\Create.cshtml.g.cs
+C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Foods\Delete.cshtml.g.cs
+C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Foods\Details.cshtml.g.cs
+C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Foods\Edit.cshtml.g.cs
+C:\Users\GabrielC\Documents\GitHub\Elemental\ModelViewPj\ModelViewPj\obj\Debug\net5.0\Razor\Views\Foods\Index.cshtml.g.cs

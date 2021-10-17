@@ -15,5 +15,7 @@ namespace ModelViewPj.Data
         }
 
         public DbSet<ModelViewPj.Models.Movie> Movie { get; set; }
+
+        public DbSet<ModelViewPj.Models.Food> Food { get; set; }
     }
 }
